@@ -16,7 +16,6 @@ Feature: To Test Create User Functionality
       | Checker2 | Test User4  | Admin   |            | secure   | secure          |
       | Maker3   | Test  User5 | Admin   |            | secure   | secure          |
       | Checker3 | Test User6  | Admin   |            | secure   | secure          |
-      | Checker4 | Test User7  | Admin   |            | secure   | secure          |
 
   @TC_09_02_ValidateUserScenario
   Scenario: Validate UserPage Fields
