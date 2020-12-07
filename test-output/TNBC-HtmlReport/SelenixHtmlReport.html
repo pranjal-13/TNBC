@@ -50,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 7, 2020 05:34:31 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 7, 2020 05:38:57 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -173,7 +173,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>To Test Create User Functionality</span>
-						<span class='test-time'>Dec 7, 2020 05:34:32 PM</span>
+						<span class='test-time'>Dec 7, 2020 05:38:57 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -187,7 +187,7 @@
     <div class='category-list'>
         <span class='category label'>@TC_09_01_AddUserScenario</span>
     </div>
-    <span class='duration right label'>0h 0m 54s+387ms</span>
+    <span class='duration right label'>0h 0m 58s+357ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> ScenarioOutline: Create User</div>
         <table class='runtime-table table-striped table'><tr><td>UserName</td><td>FullName</td><td>Profile</td><td>AuthMatrix</td><td>Password</td><td>Verify Password</td></tr><tr><td>Checker5</td><td>Test User8</td><td>Admin</td><td></td><td>secure</td><td>secure</td></tr></table>
@@ -202,21 +202,26 @@
                     </li>
                     <li test-id='5' class='gc given fail' status='fail'>
                         <h6 class="step-name" title="CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu()"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given user goes to administration and users and click on Add menu</h6>
-                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='btn btn-success']
+                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'User')]"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 12416, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
-*** Element info: {Using=xpath, value=//input[@class='btn btn-success']}
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 0ae4da51db7541fba6872ba72734df9b
+*** Element info: {Using=xpath, value=//a[contains(text(),'User')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
@@ -227,7 +232,7 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:759)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:755)
 	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
 	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </textarea>
@@ -332,12 +337,12 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 7, 2020 05:34:32 PM</td>
+										<td>Dec 7, 2020 05:38:57 PM</td>
 										<td class='linked' test-id='1'>To Test Create User Functionality</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Dec 7, 2020 05:34:32 PM</td>
+										<td>Dec 7, 2020 05:38:57 PM</td>
 										<td class='linked' test-id='3'>To Test Create User Functionality.Create User.Create User</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -370,12 +375,12 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 7, 2020 05:34:32 PM</td>
+										<td>Dec 7, 2020 05:38:57 PM</td>
 										<td class='linked' test-id='2'>To Test Create User Functionality.Create User</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Dec 7, 2020 05:34:32 PM</td>
+										<td>Dec 7, 2020 05:38:57 PM</td>
 										<td class='linked' test-id='3'>To Test Create User Functionality.Create User.Create User</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -428,24 +433,29 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 7, 2020 05:35:17 PM</td>
+										<td>Dec 7, 2020 05:39:14 PM</td>
 										<td class='linked' test-id='5'>To Test Create User Functionality.Create User.Create User.Given user goes to administration and users and click on Add menu</td>
 										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='btn btn-success']
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'User')]"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 12416, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
-*** Element info: {Using=xpath, value=//input[@class='btn btn-success']}
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 0ae4da51db7541fba6872ba72734df9b
+*** Element info: {Using=xpath, value=//a[contains(text(),'User')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
@@ -456,7 +466,7 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:759)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:755)
 	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
 	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </textarea>
@@ -502,19 +512,19 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 7, 2020 05:34:31 PM</div>
+					<div class='panel-lead'>Dec 7, 2020 05:38:57 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 7, 2020 05:35:26 PM</div>
+			 		<div class='panel-lead'>Dec 7, 2020 05:39:56 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 54s+734ms</div>
+					<div class='panel-lead'>0h 0m 58s+773ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -590,7 +600,7 @@ Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
 		</script>
 		<script>
 			var timeline = {
-			        "To Test Create User Functionality":54.387
+			        "To Test Create User Functionality":58.357
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

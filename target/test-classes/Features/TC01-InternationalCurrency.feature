@@ -40,7 +40,7 @@ Feature: InternationalCurrency feature
       | EUR          | PS          |              |
       | ILS          | PS          |              |
       | USD          | PS          |              |
-      #| JOD          | PS          |              |
+      | JOD          | PS          |              |
 
 
   @TC_01_05_ListInternationalCurrencywithInvaliddata
