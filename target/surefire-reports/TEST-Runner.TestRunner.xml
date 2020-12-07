@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="Runner.TestRunner" time="27.176" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="Runner.TestRunner" time="27.58" errors="1" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -34,18 +34,18 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\MONTRAN\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/12/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/13/display/redirect?page=changes"/>
     <property name="LIB" value="C:\Program Files (x86)\IBM\WebSphere MQ\tools\lib64;C:\Program Files (x86)\IBM\WebSphere MQ\tools\lib"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-jenkinsgitdemo-12"/>
+    <property name="BUILD_TAG" value="jenkins-jenkinsgitdemo-13"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\MONTRAN\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54008"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\MONTRAN\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54772"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="8c6694874287988a"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib64;C:\app\MONTRAN\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\Ritesh\product\12.1.0\dbhome_2\bin;C:\app\Ritesh\product\12.1.0\dbhome_1\bin;F:\app\oracledb\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\OpenVPN\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MONTRAN\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd"/>
     <property name="JBOSS_HOME" value="E:\jboss-eap-7.1.0\jboss-eap-7.1"/>
     <property name="GIT_COMMIT" value="35629b24aac788aa1400f1bbec2b92f56b7c19eb"/>
@@ -54,13 +54,13 @@
     <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/jenkinsgitdemo/12/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/jenkinsgitdemo/13/"/>
     <property name="M2_HOME" value="C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
     <property name="=C:" value="C:\Users\MONTRAN\Downloads"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="BUILD_DISPLAY_NAME" value="#13"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="8c6694874287988a"/>
@@ -76,7 +76,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="12"/>
+    <property name="BUILD_NUMBER" value="13"/>
     <property name="maven3.interceptor" value="C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib64;C:\app\MONTRAN\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\Ritesh\product\12.1.0\dbhome_2\bin;C:\app\Ritesh\product\12.1.0\dbhome_1\bin;F:\app\oracledb\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\OpenVPN\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MONTRAN\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -88,9 +88,9 @@
     <property name="MQ_FILE_PATH" value="C:\Program Files (x86)\IBM\WebSphere MQ"/>
     <property name="GIT_PREVIOUS_COMMIT" value="35629b24aac788aa1400f1bbec2b92f56b7c19eb"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/12/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/13/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\MONTRAN\.jenkins"/>
-    <property name="BUILD_ID" value="12"/>
+    <property name="BUILD_ID" value="13"/>
     <property name="TEMP" value="C:\Users\MONTRAN\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -102,7 +102,7 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="SUVARNA"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/12/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/13/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_201"/>
@@ -131,7 +131,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="WORKSPACE" value="C:\Users\MONTRAN\.jenkins\workspace\jenkinsgitdemo"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/12/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/13/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -151,48 +151,31 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/pranjal-13/TNBC"/>
   </properties>
-  <testcase classname="To Test Create User Functionality" name="Create User" time="27.176">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;User&apos;)]&quot;}
-  (Session info: chrome=87.0.4280.88)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase classname="To Test Create User Functionality" name="Create User" time="27.58">
+    <error message="Expected &quot;handle&quot; to be a string, got [object Undefined] undefined
 Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: d1c2a421a28e98a113e075f2774e056f
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;User&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;User&apos;)]&quot;}
-  (Session info: chrome=87.0.4280.88)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ef5e2be-699f-4b0c-8e3a-d7894d1744fe" type="org.openqa.selenium.InvalidArgumentException">org.openqa.selenium.InvalidArgumentException: Expected &quot;handle&quot; to be a string, got [object Undefined] undefined
 Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: d1c2a421a28e98a113e075f2774e056f
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;User&apos;)]}
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ef5e2be-699f-4b0c-8e3a-d7894d1744fe
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:755)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:980)
+	at com.tnbc.qa.util.Windowhandle.handlewin(Windowhandle.java:28)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:757)
 	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
 	at ✽.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </error>
@@ -210,51 +193,59 @@ Feature: To Test Create User Functionality
   @RegressionUserMenu @TC_09_01_AddUserScenario
   Scenario Outline: Create User                                                                                               # src/test/resources/Features/TC09-User.feature:19
     Given user goes to administration and users and click on Add menu                                                         # CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;User&apos;)]&quot;}
-  (Session info: chrome=87.0.4280.88)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+      org.openqa.selenium.InvalidArgumentException: Expected &quot;handle&quot; to be a string, got [object Undefined] undefined
 Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: d1c2a421a28e98a113e075f2774e056f
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;User&apos;)]}
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ef5e2be-699f-4b0c-8e3a-d7894d1744fe
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:755)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:980)
+	at com.tnbc.qa.util.Windowhandle.handlewin(Windowhandle.java:28)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:757)
 	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
 	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 
 AFTER SITE
-    And user enters &quot;Checker4&quot; and &quot;Test User7&quot; and selects &quot;Admin&quot; ,&quot;&quot; and enters &quot;secure&quot;  &quot;secure&quot; and clicks on Ok button # CreateUserStepDefinition.user_enters_and_and_selects_and_enters_and_clicks_on_Ok_button(String,String,String,String,String,String)
+    And user enters &quot;Checker5&quot; and &quot;Test User8&quot; and selects &quot;Admin&quot; ,&quot;&quot; and enters &quot;secure&quot;  &quot;secure&quot; and clicks on Ok button # CreateUserStepDefinition.user_enters_and_and_selects_and_enters_and_clicks_on_Ok_button(String,String,String,String,String,String)
     Then user goes to Approve screen and approves the record                                                                  # CreateUserStepDefinition.user_goes_to_Approve_screen_and_approves_the_record()
 </system-out>
     <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 11846
-Only local connections are allowed.
-Dec 07, 2020 5:00:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
+1607341713432	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\MONTRAN\\AppData\\Local\\Temp\\rust_mozprofile.XiCWCPHFQT1G&quot;
+Can&apos;t find symbol &apos;eglSwapBuffersWithDamageEXT&apos;.
+Can&apos;t find symbol &apos;eglSetDamageRegionKHR&apos;.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new Error(&quot;&quot;, &quot;(unknown module)&quot;))
+1607341721051	Marionette	INFO	Listening on port 54811
+1607341721138	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 07, 2020 5:18:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: http://localhost:7001/EGPS/static/script/utils.js, line 1577: unreachable code after return statement
+JavaScript warning: http://localhost:7001/EGPS/static/script/genEvents.js, line 709: unreachable code after return statement
+JavaScript warning: http://localhost:7001/EGPS/Blank.do, line 1359: unreachable code after return statement
+JavaScript error: http://localhost:7001/EGPS/Blank.do, line 1713: TypeError: $(...).unload is not a function
+JavaScript warning: http://localhost:7001/EGPS/Blank.do, line 2007: unreachable code after return statement
+JavaScript warning: http://localhost:7001/EGPS/Blank.do, line 2007: unreachable code after return statement
+JavaScript warning: http://localhost:7001/EGPS/static/script/utils.js, line 1577: unreachable code after return statement
+JavaScript warning: http://localhost:7001/EGPS/static/script/genEvents.js, line 709: unreachable code after return statement
+1607341732410	Marionette	INFO	Stopped listening on port 54811
+JavaScript error: http://localhost:7001/EGPS/static/script/jquery.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: http://localhost:7001/EGPS/static/script/menuUtils.js?v=2, line 231: NetworkError: A network error occurred.
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
 </system-err>
   </testcase>
 </testsuite>
