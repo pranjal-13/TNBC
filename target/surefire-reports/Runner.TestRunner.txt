@@ -1,14 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: Runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.046 sec <<< FAILURE!
-Create User(To Test Create User Functionality)  Time elapsed: 27.58 sec  <<< ERROR!
-org.openqa.selenium.InvalidArgumentException: Expected "handle" to be a string, got [object Undefined] undefined
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 57.388 sec <<< FAILURE!
+Create User(To Test Create User Functionality)  Time elapsed: 54.74 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='btn btn-success']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10792, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6ef5e2be-699f-4b0c-8e3a-d7894d1744fe
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 12416, moz:profile: C:\Users\MONTRAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4f2229a-fcf0-49e1-8864-92def8f60ccd
+*** Element info: {Using=xpath, value=//input[@class='btn btn-success']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -19,9 +21,14 @@ Session ID: 6ef5e2be-699f-4b0c-8e3a-d7894d1744fe
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:980)
-	at com.tnbc.qa.util.Windowhandle.handlewin(Windowhandle.java:28)
-	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:757)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:759)
 	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
 	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 
