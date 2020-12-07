@@ -129,10 +129,10 @@
 									</tr></thead>
 									<tbody>
 	
-<tr class="s-fail" test-id="71" parent-id="1">
+<tr class="s-fail" test-id="5" parent-id="1">
 	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
-	<td class="_600">Then User approve the currency using "JOD" <br/><span class="text-muted text-sm">To Approve Currency</span></td>
-	<td>0h 0m 1s+592msc</td>
+	<td class="_600">Then validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>" <br/><span class="text-muted text-sm">Inward Payment flow</span></td>
+	<td>0h 1m 41s+476msc</td>
 	<td></td>
 	<td>
 	</td>
@@ -141,21 +141,21 @@
 <tr class="details">
 	<td colspan="5">
 		
-		<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"currencyIsoCode"}
-  (Session info: chrome=85.0.4183.121)
+		<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"content(periodValueDate)"}
+  (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
-System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_201'
+System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.121, webStorageEnabled: true}
-Session ID: 97537485c778143af9a1e9eb15dbf2cc
-*** Element info: {Using=name, value=currencyIsoCode}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 1a5e514757a8daeab2d19decedf9552a
+*** Element info: {Using=name, value=content(periodValueDate)}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
 	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
@@ -170,10 +170,13 @@ Session ID: 97537485c778143af9a1e9eb15dbf2cc
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.tnbc.qa.pages.CurrencyPage.approveCurrency(CurrencyPage.java:355)
-	at StepDefinition.CurrencyStepDefinition.user_approve_the_currency_using(CurrencyStepDefinition.java:45)
-	at ✽.User approve the currency using "JOD"(file:src/test/resources/Features/TC02-Currency.feature:131)
+	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+	at com.tnbc.qa.pages.PaymentFlow.filterScreen(PaymentFlow.java:163)
+	at com.tnbc.qa.pages.PaymentFlow.filterwithGpkey(PaymentFlow.java:207)
+	at com.tnbc.qa.pages.PaymentFlow.checkInitialPaymentstatus(PaymentFlow.java:216)
+	at StepDefinition.InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(InwardPaymentFlowStepDefinition.java:42)
+	at ?.validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>"(file:src/test/resources/Features/TC14-InwardPaymentFlow.feature:6)
 </textarea>
 	</td>
 </tr>
@@ -201,7 +204,7 @@ Session ID: 97537485c778143af9a1e9eb15dbf2cc
 						            </div>
 									<ul class="nav nav-xs flex-row no-border pull-right">
 <li><a href="#" class="b-l"><span class="badge badge-pull">TNBC Test Reports</span></a></li>
-<li><a href="#" class="b-l"><span class="badge badge-pull">Sep 29, 2020 06:55:40 PM</span></a></li>
+<li><a href="#" class="b-l"><span class="badge badge-pull">Dec 7, 2020 04:32:10 PM</span></a></li>
 <li><a href="#" class="b-l"><span class="badge badge-pull">4.0</span></a></li>
 								    </ul>
 								</div>
