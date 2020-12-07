@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		,glue= {"StepDefinition"}
 		,monochrome=true
 		,dryRun=false	
-		,tags="@TC_14_02_PositiveInwardFlow"
+		,tags="@TC_09_01_AddUserScenario"
 		,plugin = {"pretty", "html:target/cucumber-html-report",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 

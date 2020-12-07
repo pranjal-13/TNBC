@@ -10,9 +10,9 @@ Feature: To Test Create User Functionality
 
     Examples: 
       | UserName | FullName    | Profile | AuthMatrix | Password | Verify Password |
-      | Maker1   | Test User1  | Admin   |            | secure   | secure          |
-      | Checker1 | Test User2  | Admin   |            | secure   | secure          |
-      | Maker2   | Test  User3 | Admin   |            | secure   | secure          |
+      | Maker7   | Test User7  | Admin   |            | secure   | secure          |
+    # | Checker1 | Test User2  | Admin   |            | secure   | secure          |
+    # | Maker2   | Test  User3 | Admin   |            | secure   | secure          |
       #| Checker2 | Test User4  | Admin   |            | secure   | secure          |
       #| Maker3   | Test  User5 | Admin   |            | secure   | secure          |
       #| Checker3 | Test User6  | Admin   |            | secure   | secure          |
