@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="Runner.TestRunner" time="195.328" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="Runner.TestRunner" time="57.771" errors="1" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -34,15 +34,15 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\MONTRAN\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/9/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/10/display/redirect?page=changes"/>
     <property name="LIB" value="C:\Program Files (x86)\IBM\WebSphere MQ\tools\lib64;C:\Program Files (x86)\IBM\WebSphere MQ\tools\lib"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-jenkinsgitdemo-9"/>
+    <property name="BUILD_TAG" value="jenkins-jenkinsgitdemo-10"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\MONTRAN\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52817"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\MONTRAN\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53498"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="8c6694874287988a"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
@@ -54,13 +54,13 @@
     <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/jenkinsgitdemo/9/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/jenkinsgitdemo/10/"/>
     <property name="M2_HOME" value="C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
     <property name="=C:" value="C:\Users\MONTRAN\Downloads"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="8c6694874287988a"/>
@@ -76,7 +76,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
+    <property name="BUILD_NUMBER" value="10"/>
     <property name="maven3.interceptor" value="C:\Users\MONTRAN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib;C:\Program Files (x86)\IBM\WebSphere MQ\java\lib64;C:\app\MONTRAN\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\Ritesh\product\12.1.0\dbhome_2\bin;C:\app\Ritesh\product\12.1.0\dbhome_1\bin;F:\app\oracledb\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\OpenVPN\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MONTRAN\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -88,9 +88,9 @@
     <property name="MQ_FILE_PATH" value="C:\Program Files (x86)\IBM\WebSphere MQ"/>
     <property name="GIT_PREVIOUS_COMMIT" value="35629b24aac788aa1400f1bbec2b92f56b7c19eb"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/9/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/10/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\MONTRAN\.jenkins"/>
-    <property name="BUILD_ID" value="9"/>
+    <property name="BUILD_ID" value="10"/>
     <property name="TEMP" value="C:\Users\MONTRAN\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -102,7 +102,7 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\MONTRAN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="SUVARNA"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/9/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/10/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_201"/>
@@ -131,7 +131,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="WORKSPACE" value="C:\Users\MONTRAN\.jenkins\workspace\jenkinsgitdemo"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/9/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/jenkinsgitdemo/10/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -151,8 +151,8 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/pranjal-13/TNBC"/>
   </properties>
-  <testcase classname="Inward Payment flow feature" name="Inward Payment flow" time="195.328">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;content(periodValueDate)&quot;}
+  <testcase classname="To Test Create User Functionality" name="Create User" time="57.771">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;btn btn-success&apos;]&quot;}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -161,8 +161,8 @@ Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: 1a5e514757a8daeab2d19decedf9552a
-*** Element info: {Using=name, value=content(periodValueDate)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;content(periodValueDate)&quot;}
+Session ID: 8d8fa43822649af4f817352b978d736e
+*** Element info: {Using=xpath, value=//input[@class=&apos;btn btn-success&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;btn btn-success&apos;]&quot;}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -171,8 +171,8 @@ Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: 1a5e514757a8daeab2d19decedf9552a
-*** Element info: {Using=name, value=content(periodValueDate)}
+Session ID: 8d8fa43822649af4f817352b978d736e
+*** Element info: {Using=xpath, value=//input[@class=&apos;btn btn-success&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -186,38 +186,31 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByName.findElement(By.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
-	at com.tnbc.qa.pages.PaymentFlow.filterScreen(PaymentFlow.java:163)
-	at com.tnbc.qa.pages.PaymentFlow.filterwithGpkey(PaymentFlow.java:207)
-	at com.tnbc.qa.pages.PaymentFlow.checkInitialPaymentstatus(PaymentFlow.java:216)
-	at StepDefinition.InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(InwardPaymentFlowStepDefinition.java:42)
-	at ✽.validate whether payment move to QueuedToAccountVerification status using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;,&quot;&lt;gpkey&gt;&quot;(file:src/test/resources/Features/TC14-InwardPaymentFlow.feature:6)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:758)
+	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
+	at ✽.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </error>
-    <system-out>Feature: Inward Payment flow feature
+    <system-out>@RegressionUserMenu
+Feature: To Test Create User Functionality
 
-  @TC_14_02_PositiveInwardFlow
-  Scenario Outline: Inward Payment flow # src/test/resources/Features/TC14-InwardPaymentFlow.feature:5
-    Then validate whether payment move to QueuedToAccountVerification status using &quot;&lt;ValueDateperiod&gt;&quot;,&quot;&lt;PaymentType&gt;&quot;,&quot;&lt;Reference&gt;&quot;,&quot;&lt;SubRef&gt;&quot;,&quot;&lt;ChequeNo&gt;&quot;,&quot;&lt;AccountNumber&gt;&quot;,&quot;&lt;gpkey&gt;&quot;
-    Then validate whether payment move to SignatureCheck status using &quot;&lt;ValueDateperiod&gt;&quot;,&quot;&lt;PaymentType&gt;&quot;,&quot;&lt;Reference&gt;&quot;,&quot;&lt;SubRef&gt;&quot;,&quot;&lt;ChequeNo&gt;&quot;,&quot;&lt;AccountNumber&gt;&quot;
-    Then validate whether payment move to SignatureCheckApprove using &quot;&lt;ValueDateperiod&gt;&quot;,&quot;&lt;PaymentType&gt;&quot;,&quot;&lt;Reference&gt;&quot;,&quot;&lt;SubRef&gt;&quot;,&quot;&lt;ChequeNo&gt;&quot;,&quot;&lt;AccountNumber&gt;&quot;
-    Then validate whether payment move to QueuedToPosting status using &quot;&lt;ValueDateperiod&gt;&quot;,&quot;&lt;PaymentType&gt;&quot;,&quot;&lt;Reference&gt;&quot;,&quot;&lt;SubRef&gt;&quot;,&quot;&lt;ChequeNo&gt;&quot;,&quot;&lt;AccountNumber&gt;&quot;
-    Then validate whether payment move to Completed using &quot;&lt;ValueDateperiod&gt;&quot;,&quot;&lt;PaymentType&gt;&quot;,&quot;&lt;Reference&gt;&quot;,&quot;&lt;SubRef&gt;&quot;,&quot;&lt;ChequeNo&gt;&quot;,&quot;&lt;AccountNumber&gt;&quot;
+  @TC_09_01_AddUserScenario
+  Scenario Outline: Create User # src/test/resources/Features/TC09-User.feature:6
+    Given user goes to administration and users and click on Add menu
+    And user enters &quot;&lt;UserName&gt;&quot; and &quot;&lt;FullName&gt;&quot; and selects &quot;&lt;Profile&gt;&quot; ,&quot;&lt;AuthMatrix&gt;&quot; and enters &quot;&lt;Password&gt;&quot;  &quot;&lt;Verify Password&gt;&quot; and clicks on Ok button
+    Then user goes to Approve screen and approves the record
 
     Examples: 
 
-  @TC_14_02_PositiveInwardFlow
-  Scenario Outline: Inward Payment flow                                                                                                                # src/test/resources/Features/TC14-InwardPaymentFlow.feature:14
-ACH_Clearing_File_Input_Server is started
-ACH_Clearing_Inward_Payment_Creation_Server is started
-File_Routing_Server is started
-    Then validate whether payment move to QueuedToAccountVerification status using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;,&quot;&lt;gpkey&gt;&quot; # InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(String,String,String,String,String,String,String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;content(periodValueDate)&quot;}
+  @RegressionUserMenu @TC_09_01_AddUserScenario
+  Scenario Outline: Create User                                                                                               # src/test/resources/Features/TC09-User.feature:19
+    Given user goes to administration and users and click on Add menu                                                         # CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;btn btn-success&apos;]&quot;}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -226,8 +219,8 @@ Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;SUVARNA&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: 1a5e514757a8daeab2d19decedf9552a
-*** Element info: {Using=name, value=content(periodValueDate)}
+Session ID: 8d8fa43822649af4f817352b978d736e
+*** Element info: {Using=xpath, value=//input[@class=&apos;btn btn-success&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -241,35 +234,26 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByName.findElement(By.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
-	at com.tnbc.qa.pages.PaymentFlow.filterScreen(PaymentFlow.java:163)
-	at com.tnbc.qa.pages.PaymentFlow.filterwithGpkey(PaymentFlow.java:207)
-	at com.tnbc.qa.pages.PaymentFlow.checkInitialPaymentstatus(PaymentFlow.java:216)
-	at StepDefinition.InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(InwardPaymentFlowStepDefinition.java:42)
-	at ?.validate whether payment move to QueuedToAccountVerification status using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;,&quot;&lt;gpkey&gt;&quot;(file:src/test/resources/Features/TC14-InwardPaymentFlow.feature:6)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:758)
+	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
+	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 
 AFTER SITE
-    Then validate whether payment move to SignatureCheck status using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;                        # InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_SignatureCheck_status_using(String,String,String,String,String,String)
-    Then validate whether payment move to SignatureCheckApprove using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;                        # InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_SignatureCheckApprove_using(String,String,String,String,String,String)
-    Then validate whether payment move to QueuedToPosting status using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;                       # InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToPosting_status_using(String,String,String,String,String,String)
-    Then validate whether payment move to Completed using &quot;&quot;,&quot;ACH CHEQUE RECEIVE&quot;,&quot;Cheque No&quot;,&quot;EQUAL&quot;,&quot;50000084&quot;,&quot;&quot;                                    # InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_Completed_using(String,String,String,String,String,String)
+    And user enters &quot;Checker4&quot; and &quot;Test User7&quot; and selects &quot;Admin&quot; ,&quot;&quot; and enters &quot;secure&quot;  &quot;secure&quot; and clicks on Ok button # CreateUserStepDefinition.user_enters_and_and_selects_and_enters_and_clicks_on_Ok_button(String,String,String,String,String,String)
+    Then user goes to Approve screen and approves the record                                                                  # CreateUserStepDefinition.user_goes_to_Approve_screen_and_approves_the_record()
 </system-out>
     <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 46752
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 7313
 Only local connections are allowed.
-Dec 07, 2020 4:32:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 27814
-Only local connections are allowed.
-Dec 07, 2020 4:34:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 07, 2020 4:40:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>

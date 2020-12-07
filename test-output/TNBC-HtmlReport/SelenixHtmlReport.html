@@ -50,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 7, 2020 04:32:10 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 7, 2020 04:40:48 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -79,7 +79,8 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@TC_14_02_PositiveInwardFlow</a></li>
+					<li><a href='#'>@RegressionUserMenu</a></li>
+					<li><a href='#'>@TC_09_01_AddUserScenario</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -148,10 +149,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='35.714%'><span class='strong'>5</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>5</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='7.143%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='57.143%'>8</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='10%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='40%'>4</span> others
                 </div>
             </div>
         </div>
@@ -171,8 +172,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Inward Payment flow feature</span>
-						<span class='test-time'>Dec 7, 2020 04:32:11 PM</span>
+						<span class='test-name'>To Test Create User Functionality</span>
+						<span class='test-time'>Dec 7, 2020 04:40:48 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -184,24 +185,24 @@
 </div>
 <div class='scenariooutline node' test-id='2' status='fail'>
     <div class='category-list'>
-        <span class='category label'>@TC_14_02_PositiveInwardFlow</span>
+        <span class='category label'>@TC_09_01_AddUserScenario</span>
     </div>
-    <span class='duration right label'>0h 3m 14s+431ms</span>
+    <span class='duration right label'>0h 0m 57s+316ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> ScenarioOutline: Inward Payment flow</div>
-        <table class='runtime-table table-striped table'><tr><td>ValueDateperiod</td><td>PaymentType</td><td>Reference</td><td>SubRef</td><td>ChequeNo</td><td>AccountNumber</td></tr><tr><td></td><td>ACH CHEQUE RECEIVE</td><td>Cheque No</td><td>EQUAL</td><td>50000084</td><td></td></tr></table>
+        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> ScenarioOutline: Create User</div>
+        <table class='runtime-table table-striped table'><tr><td>UserName</td><td>FullName</td><td>Profile</td><td>AuthMatrix</td><td>Password</td><td>Verify Password</td></tr><tr><td>Checker4</td><td>Test User7</td><td>Admin</td><td></td><td>secure</td><td>secure</td></tr></table>
     </div>
     <ul class='steps'>
         <li test-id='3' class='node scenario fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Inward Payment flow</div>
+            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Create User</div>
             <ul class='gc steps'>
                     <li test-id='4' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Hooks.startBrowser(Scenario)</h6>
                             <div class="node-step"></div>
                     </li>
-                    <li test-id='5' class='gc then fail' status='fail'>
-                        <h6 class="step-name" title="InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(String,String,String,String,String,String,String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>"</h6>
-                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"content(periodValueDate)"}
+                    <li test-id='5' class='gc given fail' status='fail'>
+                        <h6 class="step-name" title="CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu()"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given user goes to administration and users and click on Add menu</h6>
+                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='btn btn-success']"}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -210,8 +211,8 @@ Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: 1a5e514757a8daeab2d19decedf9552a
-*** Element info: {Using=name, value=content(periodValueDate)}
+Session ID: 8d8fa43822649af4f817352b978d736e
+*** Element info: {Using=xpath, value=//input[@class='btn btn-success']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -225,26 +226,23 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByName.findElement(By.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
-	at com.tnbc.qa.pages.PaymentFlow.filterScreen(PaymentFlow.java:163)
-	at com.tnbc.qa.pages.PaymentFlow.filterwithGpkey(PaymentFlow.java:207)
-	at com.tnbc.qa.pages.PaymentFlow.checkInitialPaymentstatus(PaymentFlow.java:216)
-	at StepDefinition.InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(InwardPaymentFlowStepDefinition.java:42)
-	at ?.validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>"(file:src/test/resources/Features/TC14-InwardPaymentFlow.feature:6)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:758)
+	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
+	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </textarea>
                                                 </li>
                     <li test-id='6' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Hooks.afterSite(Scenario)</h6>
                             <div class="node-step"></div>
                     </li>
-                    <li test-id='7' class='gc then skip' status='skip'>
-                        <h6 class="step-name" title="InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_SignatureCheck_status_using(String,String,String,String,String,String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then validate whether payment move to SignatureCheck status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084",""</h6>
+                    <li test-id='7' class='gc and skip' status='skip'>
+                        <h6 class="step-name" title="CreateUserStepDefinition.user_enters_and_and_selects_and_enters_and_clicks_on_Ok_button(String,String,String,String,String,String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And user enters "Checker4" and "Test User7" and selects "Admin" ,"" and enters "secure"  "secure" and clicks on Ok button</h6>
                             <div class="node-step">Step skipped</div>
                     </li>
                     <li test-id='8' class='gc asterisk skip' status='skip'>
@@ -252,38 +250,22 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
                             <div class="node-step">Step skipped</div>
                     </li>
                     <li test-id='9' class='gc then skip' status='skip'>
-                        <h6 class="step-name" title="InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_SignatureCheckApprove_using(String,String,String,String,String,String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then validate whether payment move to SignatureCheckApprove using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084",""</h6>
+                        <h6 class="step-name" title="CreateUserStepDefinition.user_goes_to_Approve_screen_and_approves_the_record()"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then user goes to Approve screen and approves the record</h6>
                             <div class="node-step">Step skipped</div>
                     </li>
                     <li test-id='10' class='gc asterisk skip' status='skip'>
                         <h6 class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Hooks.afterSite(Scenario)</h6>
                             <div class="node-step">Step skipped</div>
                     </li>
-                    <li test-id='11' class='gc then skip' status='skip'>
-                        <h6 class="step-name" title="InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToPosting_status_using(String,String,String,String,String,String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then validate whether payment move to QueuedToPosting status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084",""</h6>
-                            <div class="node-step">Step skipped</div>
-                    </li>
-                    <li test-id='12' class='gc asterisk skip' status='skip'>
-                        <h6 class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Hooks.afterSite(Scenario)</h6>
-                            <div class="node-step">Step skipped</div>
-                    </li>
-                    <li test-id='13' class='gc then skip' status='skip'>
-                        <h6 class="step-name" title="InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_Completed_using(String,String,String,String,String,String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then validate whether payment move to Completed using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084",""</h6>
-                            <div class="node-step">Step skipped</div>
-                    </li>
-                    <li test-id='14' class='gc asterisk skip' status='skip'>
-                        <h6 class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Hooks.afterSite(Scenario)</h6>
-                            <div class="node-step">Step skipped</div>
-                    </li>
-                    <li test-id='15' class='gc asterisk pass' status='pass'>
+                    <li test-id='11' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Hooks.quitBrowser()</h6>
                             <div class="node-step"></div>
                     </li>
-                    <li test-id='16' class='gc asterisk pass' status='pass'>
+                    <li test-id='12' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>CreateUserStepDefinition.quitBrowser()</h6>
                             <div class="node-step"></div>
                     </li>
-                    <li test-id='17' class='gc asterisk pass' status='pass'>
+                    <li test-id='13' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>GroupStepDefinition.quitBrowser()</h6>
                             <div class="node-step"></div>
                     </li>
@@ -333,7 +315,7 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@TC_14_02_PositiveInwardFlow</span>
+						<span class='category-name'>@RegressionUserMenu</span>
 						<span class='category-status right'>
 						<span class='label fail'>2</span>
 						</span>
@@ -355,13 +337,51 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 7, 2020 04:32:11 PM</td>
-										<td class='linked' test-id='2'>Inward Payment flow feature.Inward Payment flow</td>
+										<td>Dec 7, 2020 04:40:48 PM</td>
+										<td class='linked' test-id='1'>To Test Create User Functionality</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Dec 7, 2020 04:32:11 PM</td>
-										<td class='linked' test-id='3'>Inward Payment flow feature.Inward Payment flow.Inward Payment flow</td>
+										<td>Dec 7, 2020 04:40:48 PM</td>
+										<td class='linked' test-id='3'>To Test Create User Functionality.Create User.Create User</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_09_01_AddUserScenario</span>
+						<span class='category-status right'>
+						<span class='label fail'>2</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 2</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 7, 2020 04:40:48 PM</td>
+										<td class='linked' test-id='2'>To Test Create User Functionality.Create User</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Dec 7, 2020 04:40:48 PM</td>
+										<td class='linked' test-id='3'>To Test Create User Functionality.Create User.Create User</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -413,10 +433,10 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 7, 2020 04:33:41 PM</td>
-										<td class='linked' test-id='5'>Inward Payment flow feature.Inward Payment flow.Inward Payment flow.Then validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>"</td>
+										<td>Dec 7, 2020 04:41:24 PM</td>
+										<td class='linked' test-id='5'>To Test Create User Functionality.Create User.Create User.Given user goes to administration and users and click on Add menu</td>
 										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"content(periodValueDate)"}
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='btn btn-success']"}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -425,8 +445,8 @@ Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'SUVARNA', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MONTRAN\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
-Session ID: 1a5e514757a8daeab2d19decedf9552a
-*** Element info: {Using=name, value=content(periodValueDate)}
+Session ID: 8d8fa43822649af4f817352b978d736e
+*** Element info: {Using=xpath, value=//input[@class='btn btn-success']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -440,18 +460,15 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByName.findElement(By.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
-	at com.tnbc.qa.pages.PaymentFlow.filterScreen(PaymentFlow.java:163)
-	at com.tnbc.qa.pages.PaymentFlow.filterwithGpkey(PaymentFlow.java:207)
-	at com.tnbc.qa.pages.PaymentFlow.checkInitialPaymentstatus(PaymentFlow.java:216)
-	at StepDefinition.InwardPaymentFlowStepDefinition.validate_whether_payment_move_to_QueuedToAccountVerification_status_using(InwardPaymentFlowStepDefinition.java:42)
-	at ?.validate whether payment move to QueuedToAccountVerification status using "","ACH CHEQUE RECEIVE","Cheque No","EQUAL","50000084","","<gpkey>"(file:src/test/resources/Features/TC14-InwardPaymentFlow.feature:6)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tnbc.qa.pages.HomePage.createUser(HomePage.java:758)
+	at StepDefinition.CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu(CreateUserStepDefinition.java:25)
+	at ?.user goes to administration and users and click on Add menu(file:src/test/resources/Features/TC09-User.feature:7)
 </textarea>
 										</td>
 									</tr>
@@ -489,25 +506,25 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>14</div>
+					<div class='panel-lead'>10</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 7, 2020 04:32:10 PM</div>
+					<div class='panel-lead'>Dec 7, 2020 04:40:48 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 7, 2020 04:35:25 PM</div>
+			 		<div class='panel-lead'>Dec 7, 2020 04:41:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 3m 15s+295ms</div>
+					<div class='panel-lead'>0h 0m 57s+768ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -523,7 +540,16 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@TC_14_02_PositiveInwardFlow</td>
+							<td>@RegressionUserMenu</td>
+							<td>0</td>
+							<td>2</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_09_01_AddUserScenario</td>
 							<td>0</td>
 							<td>2</td>
 							<td>0</td>
@@ -560,21 +586,21 @@ Session ID: 1a5e514757a8daeab2d19decedf9552a
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 1,
-				grandChildCount: 14,
+				grandChildCount: 10,
 				passGrandChild: 5,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 8,
+				skipGrandChild: 4,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 9,
+				exceptionsGrandChild: 5,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Inward Payment flow feature":194.431
+			        "To Test Create User Functionality":57.316
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
