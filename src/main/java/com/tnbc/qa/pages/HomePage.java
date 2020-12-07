@@ -755,7 +755,7 @@ public class HomePage extends TestBase {
 		userMenu.click();
 		userAdd.click();
 		win.handlewin();
-		Thread.sleep(IntfConstants.SHORT_TIMEOUT);
+//		Thread.sleep(IntfConstants.SHORT_TIMEOUT);
 		userOk.click();
 		return new UserPage();
 	}
@@ -790,7 +790,7 @@ public class HomePage extends TestBase {
 		userMenu.click();
 		userApprove.click();
 		win.handlewin();
-		Thread.sleep(IntfConstants.SHORT_TIMEOUT);
+//		Thread.sleep(IntfConstants.SHORT_TIMEOUT);
 		approveOkBtn.click();
 		return new UserPage();
 	}
