@@ -10,8 +10,8 @@ Feature: To Test Group Functionality
 
     Examples: 
       | Name    | SortPriority | Details  |
-      | Admin9  |            0 | Java GPS |
-      | Admin10 |            0 | Java GPS |
+   #   | Admin13 |            0 | Java GPS |
+   #   | Admin14 |            0 | Java GPS |
 
   @TC_10_02_GroupModifyScenario
   Scenario Outline: Modify Group
@@ -21,7 +21,7 @@ Feature: To Test Group Functionality
 
     Examples: 
       | name | Name   | sortpriority | details  |
-      | Test | ADMIN9 |            0 | Java GPS |
+      | Test1 | ADMIN13 |            0 | Java GPS |
 
   @TC_10_03_GroupRemoveScenario
   Scenario Outline: Remove Group
@@ -31,4 +31,4 @@ Feature: To Test Group Functionality
 
     Examples: 
       | Name    |
-      | ADMIN10 |
+      | ADMIN13 |
